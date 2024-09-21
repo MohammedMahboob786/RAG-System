@@ -13,9 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Step 5: Copy the rest of the application code into the container
 COPY . .
 
-# Step 6: Ensure the OpenAI key is passed securely using Docker secrets
-# For security, do not copy openai.key directly into the container.
-# Instead, read it as a secret during runtime
+# Step 6: OpenAI key is passed securely using Docker secrets
 RUN mkdir -p /app/secrets
 
 # Step 7: Expose the port that Streamlit will run on
