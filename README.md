@@ -12,19 +12,24 @@ This repository contains a RAG system that allows users to upload PDF documents,
 - [Part 2: Web Application & Dockerfile](#part-2-web-application)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [License](#license)
 
 ## Part 1: Documentation
 
 - **Colab Notebook**: A Jupyter notebook demonstrating the functionality and implementation of the RAG system.
 - **RAG System PDF**: Documentation explaining the model architecture, approach to retrieval, and how
 generative responses are created.
+- **PDF Database**: Directory where the Chroma vector database is stored.
 
 ## Part 2: Web Application
 
 - **app.py**: The Streamlit web application code that allows users to upload PDFs, create chunks, and retrieve relevant documents.
 - **requirements.txt**: A list of libraries and dependencies needed to run the application.
 - **Dockerfile**: Instructions for building a Docker image of the application.
+- **RAG Conversational App Documentation PDF**: Documentation on how the user can upload files, ask questions, and view the bot's
+responses.
+- **images**: Folder contains the screenshot of application working.
+- **temp PDF**: Temporary PDF file that is created to store the uploaded PDF from the user.
+- **DataBase**: Directory where the Chroma vector database is stored.
 
 ## Setup Instructions
 
@@ -37,8 +42,7 @@ generative responses are created.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+   git clone https://github.com/MohammedMahboob786/RAG-System.git
    ```
 
 2. Install dependencies:
