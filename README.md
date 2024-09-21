@@ -17,7 +17,8 @@ This repository contains a RAG system that allows users to upload PDF documents,
 ## Part 1: Documentation
 
 - **Colab Notebook**: A Jupyter notebook demonstrating the functionality and implementation of the RAG system.
-- **RAG System PDF**: Comprehensive documentation covering setup instructions, use cases, and explanations of the algorithms.
+- **RAG System PDF**: Documentation explaining the model architecture, approach to retrieval, and how
+generative responses are created.
 
 ## Part 2: Web Application
 
